@@ -1,3 +1,17 @@
-.venv/
+# Encrypted seed (sensitive)
+encrypted_seed.txt
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Environment files
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
